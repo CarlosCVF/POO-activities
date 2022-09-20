@@ -20,7 +20,7 @@ public class ex24 {
 		e = ler.next();
 		if(s == 'F')
 		{
-			if(e == "CASADA")
+			if( e.equals("CASADA") )
 			{
 				System.out.printf("Digite o tempo de casada em anos: ");
 				a = ler.nextInt();
