@@ -4,6 +4,15 @@ public class Ex46 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
+		/*Entrar via teclado com “N” valores quaisquer. O valor “N” (que representa a quantidade de números) será digitado, deverá ser positivo, 
+		mas menor que vinte. Caso a quantidade não satisfaça a restrição, enviar mensagem de erro e solicitar o valor novamente. 
+		Após a digitação dos “N” valores, exibir:
+		a) O maior valor;
+		b) O menor valor;
+		c) A soma dos valores;
+		d) A média aritmética dos valores;
+		e) A porcentagem de valores que são positivos;
+		f) A porcentagem de valores negativos;*/
 		Character resposta;
 		do
 		{
