@@ -13,8 +13,9 @@ public class ex45 {
 	 e) A porcentagem de valores que são positivos;
 	 f) A porcentagem de valores negativos;*/
         
-        int N,aux=0, aux2=0, soma=0, aux3=0;
-        int[] a = new int[N];
+        int N ,aux=0, aux2=0, soma=0, aux3;
+        int i = 0;
+		int[] a = new int[i];
         
         do 
         {
@@ -22,10 +23,10 @@ public class ex45 {
         N = ler.nextInt();
         if(N < 0 || N>20)
         {
-        	System.out.println("Número inválido troxa!!");
+        	System.out.println("Número inválido!!\nTente Novamente!!\n");
         }
         }while(N < 0 || N > 20);
-        for(int i=0; i < N;i++)
+        for(i=0; i < N;i++)
         {
         	System.out.print("Digite um valor: ");
         	a [i] = ler.nextInt();
@@ -38,6 +39,7 @@ public class ex45 {
         		aux2 = a[i];
         	if(a[i]<aux2)
         		aux2 = a[i];
+        	aux3 = soma/N;
         }
         
 	}
