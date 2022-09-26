@@ -12,7 +12,9 @@ public class Ex46 {
 		c) A soma dos valores;
 		d) A média aritmética dos valores;
 		e) A porcentagem de valores que são positivos;
-		f) A porcentagem de valores negativos;*/
+		f) A porcentagem de valores negativos;
+		Após exibir os dados, perguntar ao usuário se deseja ou não uma nova execução do programa.
+		Consistir a resposta no sentido de aceitar somente “S” ou “N” e encerrar o programa em função dessa resposta.*/
 		Character resposta;
 		do
 		{
